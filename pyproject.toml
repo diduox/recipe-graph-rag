@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "recipe-graph-rag"
+version = "0.1.0"
+description = "A step-by-step recipe Graph RAG reproduction"
+requires-python = ">=3.11"
+dependencies = ["python-dotenv==1.0.1"]
+
+[project.scripts]
+recipe-rag = "recipe_graph_rag.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
