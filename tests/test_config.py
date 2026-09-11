@@ -4,7 +4,7 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 
-from recipe_graph_rag.config import load_settings
+from config import load_settings
 
 
 class SettingsTests(unittest.TestCase):

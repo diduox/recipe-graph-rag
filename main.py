@@ -2,7 +2,7 @@
 import argparse
 import json
 
-from .config import load_settings
+from config import load_settings
 
 
 def main():

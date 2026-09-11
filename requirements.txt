@@ -1,0 +1,2 @@
+# Step 1: add database and model dependencies as we implement them.
+python-dotenv==1.0.1
