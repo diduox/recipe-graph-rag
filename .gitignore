@@ -13,3 +13,8 @@ data/raw/*
 !data/raw/.gitkeep
 data/processed/*
 !data/processed/.gitkeep
+# 本地数据库运行数据
+volumes/
+
+# 本地助手配置
+.claude/
